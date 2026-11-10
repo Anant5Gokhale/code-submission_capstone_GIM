@@ -1,7 +1,7 @@
 Steps to build a toolchain workflow with gem5, DRAMim3, CACTI and DRAMPower
 carry out the simulation for dynamic and static power consumption by the DRAM banks. The goal is to compare the power for accessing data from a Cache as compared to DRAM bank for N bytes, for example, 64B, 256B, 1KB, 2KB, 4KB, 8KB. 
 
-The microbench C code, contains the program that the C code executes [Explain the what the code does for this application] The C program isolates the memory behavior and it performs strictly sequential memory reads.
+The microbench C code, contains the program that the C code executes. The C program isolates the memory behavior and it performs strictly sequential memory reads.
 
 run_test.py
 Path: gem5/
